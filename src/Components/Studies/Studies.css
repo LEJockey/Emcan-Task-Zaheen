@@ -1,0 +1,47 @@
+.studies {
+    overflow-x: hidden;
+}
+.studies h2 {
+    color: var(--Black-col);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.studies h2{
+    margin-bottom: 3.44rem;
+}
+
+.studies .row {
+    padding: 0rem 11.3rem 0rem 8.63rem;
+}
+
+.studies .row .col-lg-4 .card{
+    border-radius: 0.30794rem;
+    background: var(--White-col);
+    box-shadow: 2.95628px 4.92713px 4.92713px 0px rgba(86, 85, 85, 0.20);
+    border: none;
+}
+
+.studies .row .col-lg-4 .card img {
+    height: 23.5rem;
+}
+
+
+
+.studies .col-lg-4 .card .card-body {
+    border-radius: 0rem 0rem 0.3125rem 0.3125rem;
+    border: .0625rem solid var(--Main-col);
+    background: var(--White-col);
+    /* padding: 1.47813rem 6.65163rem; */
+    text-align: center;
+}
+
+.studies .col-lg-4 .card .card-body a{
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--Main-col);
+}
+.studies .col-lg-4 {
+    margin-bottom: 5.27rem;
+}

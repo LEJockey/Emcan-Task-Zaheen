@@ -1,0 +1,81 @@
+main {
+  margin-top: 101px;
+}
+main .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+main .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main .swiper-pagination-fraction{
+  display: none;
+}
+
+main .swiper-button-next, main .swiper-button-prev{
+  margin: 0 2rem;
+  width: 2.1875rem;
+  height: 2.1875rem;
+  background-color: var(--White-col);
+  border-radius: 50%;  
+}
+
+main .swiper-button-next::after, main .swiper-button-prev::after{
+  font-size: 1rem;
+  color: var(--Main-col)
+}
+
+main .swiper-slide .layer{
+  position: absolute;
+  display: flex;
+  /* justify-content: center; */
+  width: 100%;
+  height: 100%;
+  background: rgba(25, 27, 29, 0.55);
+/* Shadow */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  z-index: 2;
+  align-items: center;
+  flex-direction: column;
+}
+
+main .swiper-slide .layer h1{
+  font-size: 4rem;
+  color: var(--White-col);
+  font-weight: 600;
+  margin-top: 9.73rem;
+  margin-bottom: 4rem;
+}
+
+main .swiper-slide .layer h2{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--White-col);
+  margin-bottom: 5.04rem;
+}
+
+main .swiper-slide .layer button{
+  width: 19.125rem;
+  height: 3.875rem; 
+  font-size: 1.5rem !important; 
+  font-weight: 500 !important;
+}
+
+
+
+

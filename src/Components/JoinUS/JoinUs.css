@@ -1,0 +1,50 @@
+.join-us{
+    margin-top: 5.89rem;
+    overflow-x: hidden;
+    padding-bottom: 2.56rem;
+    padding-right: 2.71rem;
+    background-color: var(--Black-bg);
+}
+
+.join-us .join-description {
+    padding: 2.95rem 9.28rem 5.12rem 7.74rem;
+}
+
+.join-us .join-description h2{
+    color: var(--Black-col);
+    margin-top: 2.95rem;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.02rem;
+}
+
+.join-us .join-description p{     
+    width: 25.86313rem;
+    font-size: 1.375rem;
+    font-weight: 500;
+    line-height: 144.023%
+}
+
+.join-us .join-description .p-two{
+    margin-bottom: 2.6rem;
+}
+
+.join-us .join-description button{
+    width: 19.73594rem;
+    height: 2.875rem;
+    background-color: var(--Main-col);
+    color: var(--White-col);
+    border: none;
+    border-radius: .31rem;
+    padding: 0;
+    margin-left: 2.34rem;
+    transition: all .3s;
+}
+
+.join-us .join-description button:hover{
+    color: var(--Main-col);
+    background-color: var(--White-col);
+    border: 1px solid var(--Main-col);
+}
+
+

@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;1,400&family=Cairo:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,700;1,800&family=Roboto:wght@300;400;500;700&display=swap');
+:root {
+  --Main-col: #00878F;
+  --Black-col: #000;
+  --White-col: #fff;
+  --Black-bg: #191B1D;
+  --font-family: 'Cairo';
+  --font-style: normal;
+  --line-height: 118.023%;
+}
+
+body {
+  font-family: var(--font-family) !important; 
+  font-style: var(--font-style) !important;
+}
+
+.main-color{
+  color: var(--Main-col) !important;
+}
+
+.main-bg {
+  background-color: var(--Main-col) !important;
+
+}
+
+.Btn{
+  /* padding: .45rem 1rem !important; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background-color: var(--White-col);
+  border: 1px solid var(--Main-col);
+  color: var(--Main-col) !important;
+  transition: all.3s;
+}
+
+.Btn:hover{
+  background-color: var(--Main-col);
+  color: var(--White-col) !important;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 300px) {
+  html{
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  html {
+      font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  html {
+      font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  html {
+      font-size: 16px;
+  }
+}
+
